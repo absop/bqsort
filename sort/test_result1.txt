@@ -1,0 +1,84 @@
+Test correctness: elements number: 1000, running times: 100
+                   BqSort:    ordered!
+                RadixSort:    ordered!
+                MergeSort:    ordered!
+          QuickSortMedian:    ordered!
+          QuickSortStable:    ordered!
+            QuickSort3Way:    ordered!
+                 HeapSort:    ordered!
+                ShellSort:    ordered!
+
+         int32_grail_sort:    ordered!
+          int32_heap_sort:    ordered!
+         int32_merge_sort:    ordered!
+         int32_quick_sort:    ordered!
+         int32_shell_sort:    ordered!
+          int32_sqrt_sort:    ordered!
+           int32_tim_sort:    ordered!
+int32_merge_sort_in_place:    ordered!
+
+
+Test efficiency: elements number: 10000, running times: 20
+                 function         RANDOM        ORDERED       REVERSED        ALLSAME       ODD-EVEN        UP-DOWN
+                   BqSort        1.650ms        0.050ms        0.700ms        0.050ms        0.650ms        0.600ms
+                RadixSort        1.950ms        0.050ms        0.550ms        0.050ms        0.750ms        0.650ms
+                MergeSort        1.400ms        0.150ms        0.700ms        0.200ms        0.650ms        0.450ms
+          QuickSortMedian        1.300ms        0.500ms        0.450ms        0.500ms        0.550ms        1.150ms
+          QuickSortStable        1.550ms        0.650ms        0.550ms        0.000ms                              
+            QuickSort3Way        1.600ms                                      0.050ms                              
+                 HeapSort        2.200ms        1.550ms        1.650ms        0.150ms        1.600ms        1.700ms
+                ShellSort        2.100ms        0.450ms        0.550ms        0.400ms        0.700ms        0.700ms
+
+         int32_grail_sort        3.100ms        1.450ms        1.550ms        0.400ms        2.550ms        2.150ms
+          int32_heap_sort        2.750ms        2.200ms        2.150ms        0.200ms        2.000ms        2.450ms
+         int32_merge_sort        2.050ms        0.700ms        0.800ms        0.550ms        0.750ms        0.700ms
+         int32_quick_sort        1.650ms        0.450ms        0.700ms        0.000ms                              
+         int32_shell_sort        2.200ms        0.300ms        0.700ms        0.500ms        0.700ms        0.600ms
+          int32_sqrt_sort        1.950ms        0.500ms        0.850ms        0.500ms        1.000ms        0.700ms
+           int32_tim_sort        2.100ms        0.050ms        0.050ms        0.050ms        0.700ms        0.000ms
+int32_merge_sort_in_place        1.500ms        0.050ms        0.700ms        0.100ms        0.800ms        0.550ms
+
+
+Test efficiency: elements number: 100000, running times: 20
+                 function         RANDOM        ORDERED       REVERSED        ALLSAME       ODD-EVEN        UP-DOWN
+                   BqSort       14.400ms        0.400ms        6.200ms        0.650ms        6.550ms        5.450ms
+                RadixSort       16.150ms        0.350ms        7.000ms        0.350ms        7.550ms        7.750ms
+                MergeSort       18.300ms        1.350ms        7.350ms        1.350ms        7.400ms        4.350ms
+          QuickSortMedian       13.750ms        5.650ms        5.450ms        6.400ms        5.650ms       17.350ms
+          QuickSortStable       18.700ms        7.700ms        7.850ms        0.800ms                              
+            QuickSort3Way       19.000ms                                      0.350ms                              
+                 HeapSort       28.800ms       18.800ms       18.850ms        1.400ms       19.250ms       19.350ms
+                ShellSort       25.150ms        4.400ms        7.800ms        4.250ms        8.400ms        7.200ms
+
+         int32_grail_sort       34.700ms       15.100ms       17.750ms        4.250ms       22.300ms       18.550ms
+          int32_heap_sort       25.850ms       18.800ms       19.100ms        1.350ms       23.250ms       20.700ms
+         int32_merge_sort       19.800ms        6.900ms        9.750ms        7.400ms        9.000ms        9.550ms
+         int32_quick_sort       20.150ms        6.500ms        8.450ms        0.250ms                              
+         int32_shell_sort       31.000ms        6.500ms        7.800ms        5.950ms       11.000ms        7.950ms
+          int32_sqrt_sort       22.350ms        7.300ms        9.200ms        7.350ms       10.900ms        8.850ms
+           int32_tim_sort       23.350ms        0.300ms        0.650ms        0.350ms        8.500ms        0.850ms
+int32_merge_sort_in_place       17.350ms        0.400ms        6.950ms        0.300ms        7.450ms        5.050ms
+
+
+Test efficiency: elements number: 1000000, running times: 20
+                 function         RANDOM        ORDERED       REVERSED        ALLSAME       ODD-EVEN        UP-DOWN
+                   BqSort      129.100ms        4.000ms       78.000ms        4.500ms       75.650ms       63.650ms
+                RadixSort      171.250ms        3.700ms       86.850ms        3.850ms       91.350ms       85.600ms
+                MergeSort      202.350ms       14.700ms       89.000ms       13.150ms       84.600ms       53.150ms
+          QuickSortMedian      158.800ms       67.950ms       66.100ms       73.050ms       67.050ms      223.700ms
+          QuickSortStable      166.400ms       93.200ms       98.750ms        9.100ms                              
+            QuickSort3Way      172.600ms                                      3.400ms                              
+                 HeapSort      366.800ms      213.300ms      217.550ms       16.500ms      253.650ms      268.800ms
+                ShellSort      339.600ms       67.600ms      105.350ms       67.750ms      121.350ms      101.500ms
+
+         int32_grail_sort      456.200ms      218.500ms      254.500ms       57.850ms      294.100ms      255.050ms
+          int32_heap_sort      404.300ms      246.800ms      244.950ms       16.400ms      260.050ms      264.100ms
+         int32_merge_sort      257.150ms       92.150ms      122.300ms       93.850ms      123.300ms      108.500ms
+         int32_quick_sort      201.950ms       82.050ms      109.550ms        3.250ms                              
+         int32_shell_sort      358.950ms       81.850ms      111.050ms       80.200ms      131.000ms      115.900ms
+          int32_sqrt_sort      313.700ms       97.600ms      123.150ms       98.050ms      141.150ms      113.150ms
+           int32_tim_sort      300.550ms        3.650ms        6.350ms        3.700ms      102.200ms       11.400ms
+int32_merge_sort_in_place      222.700ms        4.200ms       91.300ms        4.400ms       98.700ms       64.700ms
+
+
+Totally elapsed time: 266.42s
